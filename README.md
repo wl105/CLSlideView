@@ -9,8 +9,10 @@
 - 头部区域会自动适配，逻辑与主流新闻APP相似，UI效果我会努力升级
 - 下部的tableView能够上拉、下拉刷新，可配置
 
-####使用说明
+###使用说明
+
 - 导入`多个tableView的组合`文件夹，在相应类`#import "SlideTableView.h" #import "Macro.h"`
+- 创建SlideTableView
 ```
 - (SlideTableView *)slideView
 {
@@ -47,3 +49,5 @@
     return _slideView;
 }
 ```
+
+- SlideTableView类中有许多属性，不清楚的可以issues，有任何建议与意见也请Issues me
