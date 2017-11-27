@@ -51,3 +51,6 @@
 ```
 
 - SlideTableView类中有许多属性，不清楚的可以issues，有任何建议与意见也请Issues me
+##### PS：下载后记得使用pod install，需要用到的第三方也放在了podfile.md中
+
+        
